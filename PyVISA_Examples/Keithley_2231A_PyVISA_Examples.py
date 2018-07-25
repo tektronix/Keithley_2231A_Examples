@@ -93,4 +93,4 @@ KEI2231A_Disconnect()
 rm.close
 
 t2 = time.time() # Capture stop time...
-print("{0:.0f} s".format((t2-t1)))
+print("{0:.3f} s".format((t2-t1)))
